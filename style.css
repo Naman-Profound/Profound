@@ -1,0 +1,174 @@
+*{
+    text-align: center;
+    /* box-sizing: border-box; */
+    text-decoration: none;
+    list-style: none;
+    /* font-size: 15px; */
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar{
+    background-color: rgba(22, 6, 6, 0.586);
+    border-radius: 35px;
+    margin: 20px;
+    margin-top: 1x;
+    padding: 1px 1px;
+    width: 100%;
+}
+
+.navbar ul{
+    overflow: auto;
+    font-size: 15px;
+}
+
+.navbar li{
+    float: left;
+    list-style: none;
+    font-size: 15px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding: 15px;
+    /* text-align: center; */
+
+}
+
+
+.page{
+    height: 100vh;
+    border: 1px solid black;
+    /* background : url(https://static.wixstatic.com/media/c837a6_314c5a8d96b8421c8dc9376f87af204df000.jpg/v1/fill/w_858,h_1080,al_c,q_85,usm_0.33_1.00_0.00,enc_auto/c837a6_314c5a8d96b8421c8dc9376f87af204df000.jpg) ; */
+    background: url(./WhatsApp\ Image\ 2023-10-18\ at\ 19.18.44_7e4b1ccd.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    
+}
+
+
+#center .menu{
+    justify-content: center;
+}
+
+
+.navbar li a:hover{
+    position: relative;
+    color: #0087ca;
+    animation-delay: 2s;
+}
+/* 
+.navbar li a::after {
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 2s ease-out;
+    
+    } */
+
+.navbar li a::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    animation-delay: 2s;
+}
+
+
+p{
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h1{
+    color: red ;
+    font-family: 'Bungee', cursive;
+    font-family: 'Caveat', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+.NAME{
+    font-size: 30px;
+    color: white;
+    font-weight: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* text-align: center  ; */
+
+}
+
+
+img{
+    height: 50px;
+    width: 50px;
+    margin-left: -20px;
+    margin-top: 5px;
+    margin-right: 12px;
+}
+
+
+.menu {
+    text-align: center;
+    /* padding-left: 30px;
+    margin-top: 15px; */
+    /* text-align: center;
+    align-items: center; */
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    justify-content: center;
+
+}  
+/* .left{
+    margin-left: 60px;
+} */
+
+
+li a{
+    align-content: center;
+}
+
+
+ul{
+    justify-content: end;
+}
+
+.para{
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+#start-button{
+    align-items: center;
+    background-color: rgba(22, 6, 6, 0.586);
+    border: none;
+    position: absolute; 
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 50px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 500px;
+    color: white;
+    margin-top: 200px;
+}
